@@ -1,0 +1,7 @@
+CREATE TABLE contacto(
+	id SERIAL,
+	nombre VARCHAR(50) NOT NULL,
+	email VARCHAR(50) NOT NULL,
+	comentarios VARCHAR(255) NOT NULL,
+	PRIMARY KEY (id)
+);
